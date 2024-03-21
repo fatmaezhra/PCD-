@@ -1,0 +1,131 @@
+.container_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(238, 237, 237);
+    overflow-x: hidden;
+    
+  }
+  
+  .header_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom:0px;
+    margin-top: -80px;
+    margin-right: 90px;
+   
+  
+  }
+  
+  .logo_1 {
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 120px;
+  }
+  
+  .logo_1 img {
+    width: 100px; 
+    height: 80px;
+  }
+  
+  .app-name_1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(206, 23, 23);
+    margin-right: 1050px;
+    margin-top: 80px;
+    margin-bottom: 10px; 
+  
+  }
+  
+  .carte-signin_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:140px;
+    margin-bottom: 0px;
+  }
+  
+  .titre_1 {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: -30px;
+    margin-top: 0;
+    margin-right:420px;
+    
+  }
+  h1{
+    color: black;
+  }
+  h2{
+    color: #877777;
+    margin-left: -10px;
+    margin-bottom: -10px;
+  }
+  
+  
+  .button-container_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 85px; 
+    margin-bottom: 0px;
+   /* Adjust the margin as needed */
+  }
+  
+ 
+   
+  .button_1 {
+    background-color: #877777;
+    color:black;
+    padding: 20px 140px;
+     border: 2px solid #555;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;  
+  }
+  
+  .button_1:hover {
+    background-color: #cec7c5;
+  }
+  
+ 
+  .button_2 {
+    background-color: #877777;
+    color:black;
+    padding: 18px 84px;
+     border: 2px solid #555;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 82px;  
+  }
+  
+  .button_2:hover {
+    background-color: #cec7c5;
+  }
+  
+  .fleche_d {
+    
+      position: relative;
+      width: 70px; /* Largeur de votre conteneur */
+      height: 50px; /* Hauteur de votre conteneur */
+    }
+    
+    .fd {
+      position: fixed;
+      bottom: 30px;
+      left: 120px;
+      width: 60px; /* Optionnel: Changez la taille selon vos besoins */
+      height: 50px;
+    }
+    
+  

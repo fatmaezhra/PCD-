@@ -1,0 +1,115 @@
+/* Overall container */
+.container {
+    display: flex; /* Allow horizontal layout */
+    flex-direction: column;  /* Adjust to row layout (horizontal) */
+    align-items: center; /* Vertically center content */
+    background-color: rgb(238, 237, 237);
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    width: 100%; /* Ensure full viewport width */
+    height: 100vh; /* Optionally set full viewport height */
+  }
+  .part {
+    display: flex; /* Allow horizontal layout */
+    flex-direction: row;
+  }
+
+  .part2 {
+    display: flex; /* Allow horizontal layout */
+    flex-direction: column;
+  }
+
+  
+  .ph2 {
+    margin-left: 410px;
+    
+  }
+  /* Logo section */
+  .logo {
+    /* Stack logo and text vertically */
+    align-items: center; /* Center content horizontally */
+    margin-left: 150px; /* Center vertically and horizontally */
+  }
+  
+  .logo img {
+    width: 500px; /* Adjust image width as needed */
+    height: 500px; /* Adjust image height as needed */
+    /* Consider using a responsive image solution for optimal rendering */
+  }
+  
+  
+  
+  /* App name section */
+  .app-name {
+    font-size: 90px;
+    font-weight: bold;
+    color: rgb(206, 23, 23);
+    margin-top: 160px; /* Add space after logo */
+    
+    margin-right:50px;
+    text-align: center; /* Center text within container */
+  }
+  
+  /* Sign-in card */
+  .carte-signin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto; /* Center vertically and horizontally */
+    padding: 20px; /* Add padding for better spacing */
+     
+  }
+  
+  .titre {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #877777;
+    margin-top: 10px;
+    margin-left: 60px;
+    text-align: center; /* Center text within card */
+  }
+  
+  /* Button container */
+  .button-container {
+    display: flex;
+    flex-direction: row; /* Arrange buttons horizontally */
+    justify-content: space-between; /* Distribute buttons evenly */
+    align-items: center;
+    margin-top: 30px; /* Add space after title */
+  }
+  
+ 
+  .Create_button {
+    background-color: #e2e0e0;
+    color: #877777;
+    padding: 20px 70px;
+    border: 2px solid #555;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size:18px; /* Reduce font size for better readability */
+    font-weight: bold;
+    text-align: center; /* Center text within button */
+  }
+  
+  .Create_button:hover {
+    background-color: #cec7c5;
+  }
+  
+  
+  .Connect_button {
+    background-color: #e2e0e0;
+    color: #877777;
+    padding: 20px 88px;
+    border: 2px solid #555;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 18px; /* Reduce font size for better readability */
+    font-weight: bold;
+    text-align: center; /* Center text within button */
+    margin-left: 40px;
+  }
+  
+  .Connect_button:hover {
+    background-color: #cec7c5;
+  }
+  
